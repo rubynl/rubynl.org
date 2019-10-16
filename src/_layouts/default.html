@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>
+      {% if page.title == "" %}
+        {{ site.title }}
+      {% else %}
+        {{ page.title }} - {{ site.title }}
+      {% endif %}
+    </title>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <section class="content">
+          {{ content }}
+        </section>
+      </main>
+
+      <footer class="footer">
+        &copy; Stichting Ruby NL
+      </footer>
+    </div>
+  </body>
+</html>
