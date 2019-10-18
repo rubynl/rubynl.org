@@ -15,14 +15,18 @@
   <body>
     <div class="container">
       <main>
-        <section class="content">
-          {{ content }}
-        </section>
-      </main>
+        <nav class="main-navigation">
+          <a href="/">Home</a>
+          <span class="separator"></span>
+          <a href="/events">Events</a>
+          <span class="separator"></span>
+          <a href="/sponsorships">Sponsorships</a>
+          <span class="separator"></span>
+          <a href="/about">About</a>
+        </nav>
 
-      <footer class="footer">
-        &copy; Stichting Ruby NL
-      </footer>
+        {{ content }}
+      </main>
     </div>
   </body>
 </html>
