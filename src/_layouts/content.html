@@ -3,5 +3,10 @@ layout: default
 ---
 
 <section class="block">
-  {{ content }}
+  {% if page.header_image != "" %}
+    <img src="{{ page.header_image }}" class="header-image" alt="{{ page.header_description }}">
+  {% endif %}
+  <div class="block-content">
+    {{ content }}
+  </div>
 </section>
