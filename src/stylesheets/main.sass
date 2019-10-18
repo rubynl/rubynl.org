@@ -5,6 +5,7 @@ $font-color: black
 $font-family: Helvetica, Arial, sans-serif
 $highlight-color: #9B1C16
 $highlight-color-hover: #ff0000
+$mobile-width: 610px
 
 @import "reset"
 
@@ -73,9 +74,35 @@ a
   margin-right: auto
   max-width: 600px
 
-.main-navigation
+.main-header
   margin: 40px 0 20px 0
+  display: flex
+  flex: 1
+  flex-direction: row
+  justify-content: space-between
+  align-items: baseline
+
+  @media (max-width: $mobile-width)
+    display: block
+    margin-top: 20px
+    padding: 0 20px
+    flex: 0
+    text-align: center
+
+.main-title
+  flex-basis: 40%
+  font-size: 20px
+  font-weight: bold
+
+  @media (max-width: $mobile-width)
+    margin-bottom: 20px
+
+.main-navigation
+  flex-basis: 60%
   text-align: right
+
+  @media (max-width: $mobile-width)
+    text-align: center
 
   a
     margin: 0 5px
@@ -83,9 +110,6 @@ a
   .separator
     &:before
       content: "|"
-
-.text-align-center
-  text-align: center
 
 .block
   margin-bottom: 40px
@@ -96,8 +120,10 @@ a
     padding: 40px
 
 .header-image
+  display: block
   width: 100%
   max-width: 100%
+  height: 200px
   max-height: 200px
   object-fit: cover
   object-position: center
