@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>
-      {% if page.title == "" %}
+      {%- if page.title == "" -%}
         {{ site.title }}
-      {% else %}
+      {%- else -%}
         {{ page.title }} - {{ site.title }}
-      {% endif %}
+      {%- endif -%}
     </title>
     <link rel="stylesheet" href="/stylesheets/main.css">
   </head>
