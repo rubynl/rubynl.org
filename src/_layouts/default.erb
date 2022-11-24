@@ -4,7 +4,8 @@
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
-    <header class="header">
+    <a href="#main" class="go-to-content-link">Skip to main content</a>
+    <header class="header" role="banner">
       <a href="/"><img src="<%= image_path "images/logo.svg" %>" alt="Logo"></a>
 
       <nav class="main-navigation">
@@ -16,7 +17,7 @@
       </nav>
     </header>
 
-    <main>
+    <main id="main">
       <%= yield %>
     </main>
   </body>
