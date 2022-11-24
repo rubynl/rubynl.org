@@ -34,7 +34,7 @@ full_title: "Stichting Ruby NL"
       </div>
 
       <% if event.url %>
-        <a href="<%= event.url %>" class="event-link">View event <span aria-hidden="true">»</span></a>
+        <a href="<%= event.url %>" class="event-link">View <%= event.name %> <span aria-hidden="true">»</span></a>
       <% end %>
     </div>
     <% end %>
