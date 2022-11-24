@@ -1,0 +1,24 @@
+[class^=hero-] {
+  display: block;
+  width: 100%;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (max-width: 640px) {
+    height: 200px;
+    background-size: cover;
+  }
+}
+
+.hero-home {
+  background-image: url(../images/headers/home.jpg);
+}
+.hero-about {
+  margin-top: var(--padding-medium);
+  background-image: url(../images/headers/about.jpg);
+}
+.hero-sponsorships {
+  margin-top: var(--padding-medium);
+  background-image: url(../images/headers/sponsorships.jpg);
+}

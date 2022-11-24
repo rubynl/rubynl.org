@@ -1,0 +1,43 @@
+---
+layout: default
+page_class: home
+full_title: "Stichting Ruby NL"
+---
+
+<section class="section intro-section">
+  <p class="text-center text-large">Welcome to Stichting Ruby NL, a non-profit organization responsible for organizing Ruby focussed community events in the Netherlands.</p>
+</section>
+
+<div class="hero-home"></div>
+
+<section class="section">
+  <h1>Events we organize</h1>
+  <a name="#events"></a>
+
+  <div class="events">
+    <% site.data.events.each do |event| %>
+    <div class="event-item">
+      <h2>
+        <% if event.url %>
+          <a href="<%= event.url %>">
+        <% end %>
+          <img src="<%= image_path "images/logos/#{event.logo}" %>" alt="<%= event.name %>" class="event-logo">
+        <% if event.url %>
+          </a>
+        <% end %>
+        <% if event.show_name %>
+          <span><%= event.name %></span>
+        <% end %>
+      </h2>
+
+      <div class="event-description">
+        <p><%= event.description %></p>
+      </div>
+
+      <% if event.url %>
+        <a href="<%= event.url %>" class="event-link">View event <span aria-hidden="true">»</span></a>
+      <% end %>
+    </div>
+    <% end %>
+  </div>
+</section>
