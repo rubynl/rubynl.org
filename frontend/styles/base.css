@@ -68,7 +68,12 @@ a {
 
 ul,
 ol {
-  margin: 0 0 20px 20px;
+  margin: 0 0 20px 40px;
+
+  & ul,
+  & ol {
+    margin-bottom: 0;
+  }
 }
 
 ul {
@@ -91,6 +96,22 @@ h2 {
   margin-bottom: var(--padding-small);
   color: var(--heading-color);
   font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h3 {
+  margin-bottom: var(--padding-tiny);
+  color: var(--heading-color);
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h4 {
+  margin-bottom: var(--padding-tiny);
+  color: var(--heading-color);
+  font-size: 1.2rem;
   font-weight: 900;
   line-height: 1.1;
 }
