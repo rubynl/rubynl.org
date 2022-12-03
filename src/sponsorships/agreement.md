@@ -129,7 +129,8 @@ The schedule of the meetup event is as follows for events that include presentat
 
 ### Privacy
 1. People's right to privacy is respected. Attendees will not be photographed or recorded without prior approval. Their likeness will not be shared publicly on social media, blog posts, mailings, et cetera. without prior approval. Not sharing the likeness of attendees is the default.
-1. How to get approval from attendees and other participants? This can be done with an announcement before or at the start of the event, or before any recording (photograph/video/other) is made. A show of hands when asked for approval, or by use of other indicators (such as colored bracelets or lanyards) to indicate approval.
+    1. How to get approval from attendees and other participants? This can be done with an announcement before or at the start of the event, or before any recording (photograph/video/other) is made. A show of hands when asked for approval, or by use of other indicators (such as colored bracelets or lanyards) to indicate approval.
+1. The organizers will not share any information with sponsors about attendees to be used for marketing or retargeting purposes. Attendees will not be contacted by sponsors with marketing or job offers outside the event without prior approval by the attendee.
 
 ### Code of Conduct
 1. All events follow a Code of Conduct. The Code of Conduct is based on the Contributor Covenant.
