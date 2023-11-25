@@ -1,17 +1,17 @@
 ---
-title: Stichting Ruby NL Sponsor agreement
+title: Ruby NL Sponsor agreement
 layout: page
 page_class: sponsorship-agreement
 ---
 
-Last updated at: 2022-11-26
+Last updated at: 2025-01-26
 
-Thank you for (considering) sponsoring a Stichting Ruby NL event! Whether it's a meetup, conference or workshop, sponsors keep the community alive by providing necessary sponsorships. Without you, we could not organize these events!
+Thank you for (considering) sponsoring a Ruby NL event! Whether it's a meetup, conference or workshop, sponsors keep the community alive by providing necessary sponsorships. Without you, we could not organize these events!
 
-This document describes in detail the terms and conditions to a sponsorship agreement for a Stichting Ruby NL event. By sponsoring an event, you agree with these terms. Exceptions can be made to these terms on a case by case basis before the sponsorship is confirmed.
+This document describes in detail the terms and conditions to a sponsorship agreement for a Ruby NL event. By sponsoring an event, you agree with these terms. Exceptions can be made to these terms on a case by case basis before the sponsorship is confirmed.
 
 ## Definitions
-1. The organizers: The organizers of the event are the people associated with Stichting Ruby NL (from now on _Ruby NL_), including any other temporary organizers for the event. Additional volunteers may be present during an event.
+1. The organizers: The organizers of the event are the people associated with Ruby NL (from now on _Ruby NL_), including any other temporary organizers for the event. Additional volunteers may be present during an event.
 1. The sponsor: A party contributing a venue, food, beverages or any item to an event.
 1. The event: The meetup event, hackathon, workshop, conference or other community get-together, that is organized by _Ruby NL_ that takes place at the venue. A common event is the [Amsterdam.rb meetup event][amsrb].
 1. The venue: The location at which the event will take place. This is limited to the space dedicated to the event: an office, a restaurant, or other. Within this location it's possible to indicate the space to which attendees are permitted to stay and not travel beyond that space.

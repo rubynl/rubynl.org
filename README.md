@@ -1,6 +1,6 @@
-# Stichting Ruby NL website
+# Ruby NL website
 
-The website of Stichting Ruby NL. It can be found at [rubynl.org](https://rubynl.org).
+The website of Ruby NL. It can be found at [rubynl.org](https://rubynl.org).
 
 ## Table of Contents
 

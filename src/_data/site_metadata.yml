@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Stichting Ruby NL
+title: Ruby NL
 email: contact@rubynl.org
 description: >-
-  Welcome to Stichting Ruby NL, a non-profit organization responsible for organizing Ruby focussed community events in the Netherlands.
+  Welcome to Ruby NL, a group of volunteers that organize Ruby focussed community events in the Netherlands.
