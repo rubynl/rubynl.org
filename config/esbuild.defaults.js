@@ -259,7 +259,7 @@ const bridgetownPreset = (outputFolder) => ({
 const postcssrc = require("postcss-load-config")
 const postCssConfig = postcssrc.sync()
 
-module.exports = (outputFolder, esbuildOptions) => {
+module.exports = async (outputFolder, esbuildOptions) => {
   esbuildOptions.plugins = esbuildOptions.plugins || []
   // Add the PostCSS & glob plugins to the top of the plugin stack
   esbuildOptions.plugins.unshift(postCssPlugin(postCssConfig, esbuildOptions.postCssPluginConfig || {}))
@@ -271,7 +271,8 @@ module.exports = (outputFolder, esbuildOptions) => {
   esbuildOptions.plugins.push(bridgetownPreset(outputFolder))
 
   // esbuild, take it away!
-  require("esbuild").build({
+  const esbuild = require("esbuild")
+  const options = {
     bundle: true,
     loader: {
       ".jpg": "file",
@@ -285,7 +286,6 @@ module.exports = (outputFolder, esbuildOptions) => {
     },
     resolveExtensions: [".tsx", ".ts", ".jsx", ".js", ".css", ".scss", ".sass", ".json", ".js.rb"],
     nodePaths: ["frontend/javascript", "frontend/styles"],
-    watch: process.argv.includes("--watch"),
     minify: process.argv.includes("--minify"),
     sourcemap: true,
     target: "es2016",
@@ -295,5 +295,12 @@ module.exports = (outputFolder, esbuildOptions) => {
     publicPath: "/_bridgetown/static",
     metafile: true,
     ...esbuildOptions,
-  }).catch(() => process.exit(1))
+  }
+  if (process.argv.includes("--watch")) {
+    let ctx = await esbuild.context(options)
+    await ctx.watch()
+  } else {
+    esbuild.build(options)
+  }
+  console.log('watching...')
 }
