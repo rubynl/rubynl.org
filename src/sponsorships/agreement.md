@@ -135,7 +135,7 @@ The schedule of the meetup event is as follows for events that include presentat
 ### Code of Conduct
 1. All events follow a Code of Conduct. The Code of Conduct is based on the Contributor Covenant.
     - [Amsterdam.rb Code of Conduct page](https://www.amsrb.org/code-of-conduct/)
-    - [Rails Girls NL Code of Conduct page](https://railsgirls.nl/code-of-conduct/)
+    - [Rails Girls NL Code of Conduct page](https://railsgirls.rubynl.org/code-of-conduct/)
 1. The organizers, or a dedicated team, are the Code of Conduct enforcement team. Anyone attending the event can report any issues with them.
 
 ### Access
